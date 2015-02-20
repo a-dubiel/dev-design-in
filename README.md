@@ -1,2 +1,2 @@
-# Grunt Boilerplate
-Initial workflow built with Grunt.js
+# devdesign.in
+Collection of useful resource for web designer and developers.
