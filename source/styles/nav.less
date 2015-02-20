@@ -6,74 +6,64 @@
   overflow: hidden;
   z-index:11;
 
+
   @media (min-width: @breakpoint-tablet) {
     left:0;
+  }
+
+  @media (max-width: @breakpoint-tablet) {
+    position: absolute;
+    top:@header-height;
+    left:0;
+    width: 100%;
+    height:100% !important;
+    transform: translateX(0);
+    opacity:1;
+    z-index:10;
+    overflow-y: scroll;
+    .transition(0.2s ease-in-out);
+    transform: translateX(-50%);
+    opacity:0;
+
+    nav {
+      text-align: center;
+    }
+
+    a {
+      padding-left:0;
+    } 
   }
 }
 .nav-opened {
   .nav-main {
     @media (max-width: @breakpoint-tablet) {
-        position: absolute;
-        top:@header-height;
-        left:0;
-        width: 100%;
-        height:100% !important;
-
-        animation: slideIn 0.2s;
-
-     
-
-        z-index:10;
-        overflow-y: scroll;
-
-        nav {
-          text-align: center;
-        }
-
-        a {
-          padding-left:0;
-        }
-        
+        transform: translateX(0);
+        opacity:1;
+      
     }
 
   }
-
-@keyframes slideIn {
-  from {
-    transform: translateX(-50%);
-    opacity:0;
-  }
-  to {
-    transform: translateX(0); 
-    opacity:1;
-  }
-}
-
-
-
 }
 
 .nav-main nav {
+  li {
+    line-height: @header-height;
+  }
 
-    li {
-      line-height: @header-height;
+  a {
+    display:block;
+    width:100%;
+    padding-left:20px;
+
+    &:hover {
+      background-color: @nav-hover; 
     }
 
-    a {
-      display:block;
-      width:100%;
-      padding-left:20px;
-
-      &:hover {
-        background-color: @nav-hover; 
-      }
-
-      &.active {
-        background-color: @nav-active; 
-        color: @text-color;
-      }
+    &.active {
+      background-color: @nav-active; 
+      color: @text-color;
     }
-  
+  } 
 }
 
 .search-input {
@@ -109,15 +99,12 @@
     padding:0 10px;
     border-radius:0 15px 15px 0;  
     background: @nav-hover;
-    
 
     &:focus {
       outline:none;
-
     }
   }
 }
-
 
 .nav-filters {
   display:block;
@@ -135,7 +122,6 @@
   }
 
   a {
- 
     padding: 3px 15px 4px;
     border-radius: @border-radius-base;
 
@@ -217,4 +203,15 @@
   margin-top: 0;
   transform: rotate(-45deg);
   transition-delay: 0, .2s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50%);
+    opacity:0;
+  }
+  to {
+    transform: translateX(0); 
+    opacity:1;
+  }
 }
