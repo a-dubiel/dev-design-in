@@ -1,7 +1,7 @@
 /*
  * dev-design-list
  * v. 0.0.1
- * Friday, February 20th, 2015, 4:59:12 PM
+ * Friday, February 20th, 2015, 5:07:53 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -2651,41 +2651,6 @@ figure
 img
 {
     vertical-align: middle;
-}
-.btn
-{
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 1.42857143;
-
-    display: inline-block;
-
-    margin-bottom: 0;
-    padding: 6px 12px;
-
-    cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-
-    border: 1px solid transparent;
-    border-radius: 15px;
-    background-image: none;
-
-    -ms-touch-action: manipulation;
-        touch-action: manipulation;
-}
-.btn:hover,
-.btn:focus,
-.btn.focus
-{
-    text-decoration: none;
-}
-.btn:active,
-.btn.active
-{
-    outline: 0;
-    background-image: none;
 }
 h1,
 h2,
