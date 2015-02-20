@@ -1,7 +1,7 @@
 /*
  * dev-design-list
  * v. 0.0.1
- * Friday, February 20th, 2015, 4:28:56 PM
+ * Friday, February 20th, 2015, 4:44:17 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -2880,59 +2880,69 @@ dd
 }
 .nav-main
 {
-    position: fixed;
+    position: absolute;
     z-index: 11;
+    z-index: 10;
+    top: 45px;
     left: -20%;
 
     overflow: hidden;
+    overflow-y: scroll;
 
-    width: 20%;
+    width: 100%;
+    height: 100%;
 
+    transition: .2s ease-in-out;
+    -webkit-transform: translateX(0);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(0);
+            transform: translateX(-50%);
+
+    opacity: 1;
+    opacity: 0;
     background: #373737;
+}
+.nav-main nav
+{
+    text-align: center;
+}
+.nav-main a
+{
+    padding-left: 0;
 }
 @media (min-width: 768px)
 {
     .nav-main
     {
-        left: 0;
-    }
-}
-@media (max-width: 768px)
-{
-    .nav-main
-    {
-        position: absolute;
-        z-index: 10;
-        top: 45px;
+        position: fixed;
         left: 0;
 
-        overflow-y: scroll;
+        width: 20%;
 
-        width: 100%;
-        height: 100% !important;
-
-        transition: .2s ease-in-out;
         -webkit-transform: translateX(0);
-        -webkit-transform: translateX(-50%);
                 transform: translateX(0);
-                transform: translateX(-50%);
 
         opacity: 1;
-        opacity: 0;
     }
     .nav-main nav
     {
-        text-align: center;
+        text-align: left;
     }
-    .nav-main a
+    .nav-main nav a
     {
-        padding-left: 0;
+        padding-left: 20px;
     }
 }
 @media (max-width: 768px)
 {
     .nav-opened .nav-main
     {
+        position: absolute;
+        left: 0;
+
+        width: 100%;
+        height: 100% !important;
+
         -webkit-transform: translateX(0);
                 transform: translateX(0);
 

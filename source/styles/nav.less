@@ -1,42 +1,53 @@
-.nav-main {
-  width: @nav-width;  
+.nav-main { 
   background: @nav-bg; 
-  position:fixed;
   left:-@nav-width;
   overflow: hidden;
   z-index:11;
+  position: absolute;
+  top:@header-height;
+  width: 100%;
+  height:100%;
+  transform: translateX(0);
+  opacity:1;
+  z-index:10;
+  overflow-y: scroll;
+  .transition(0.2s ease-in-out); 
+  transform: translateX(-50%);
+  opacity:0;
 
-
-  @media (min-width: @breakpoint-tablet) {
-    left:0;
+  nav {
+    text-align: center;
   }
 
-  @media (max-width: @breakpoint-tablet) {
-    position: absolute;
-    top:@header-height;
-    left:0;
-    width: 100%;
-    height:100% !important;
-    transform: translateX(0);
-    opacity:1;
-    z-index:10;
-    overflow-y: scroll;
-    .transition(0.2s ease-in-out);
-    transform: translateX(-50%);
-    opacity:0;
+  a {
+    padding-left:0;
+  } 
 
+  @media (min-width: @breakpoint-tablet) {
+    position: fixed;
+    left:0;
+    width: @nav-width; 
+    opacity:1;
+
+
+    transform: translateX(0); 
     nav {
-      text-align: center;
+      text-align: left;
+       a {
+        padding-left:20px;
+      } 
     }
 
-    a {
-      padding-left:0;
-    } 
+   
   }
 }
 .nav-opened {
   .nav-main {
     @media (max-width: @breakpoint-tablet) {
+        position: absolute;
+        left:0;
+        width: 100%;
+        height:100% !important;
         transform: translateX(0);
         opacity:1;
       
