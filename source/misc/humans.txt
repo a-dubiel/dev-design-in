@@ -1,0 +1,15 @@
+/* TEAM */
+Name:
+Title:      
+Position:     
+Location:   
+
+/* THANKS */
+Name: 
+
+/* SITE */
+Updated:     YYYY/MM/DD
+Language:    English (EN)
+Standards:   HTML5, CSS3, JavaScript
+Components:  jQuery, Modernizr
+Software:    

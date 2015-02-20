@@ -1,0 +1,167 @@
+.header {
+  background-color: @nav-bg;
+  width:100%;
+  .clearfix(); 
+}
+
+.logo {
+  display: block;
+  background: @brand-primary;
+  height: @header-height;
+  width:100%;
+  float:left;  
+  text-align:center;
+  color: @text-color;
+  font-size: 12px; 
+  font-weight:700;
+  line-height:@header-height; 
+
+  @media (min-width: @breakpoint-tablet) {
+    text-align:left;
+    width:@nav-width;
+    padding-left:20px;
+  } 
+}
+
+.main {
+  position: fixed;
+  left:0;
+  width:100%;
+  height:100%;
+  padding:10px;
+  overflow-y: scroll;
+
+
+  
+  @media (min-width: @breakpoint-tablet) {
+    left:@nav-width;
+    width: (100% - @nav-width);
+  }
+
+
+
+}
+
+ .shadow {
+
+    display:block;
+    width:100%;
+    height:50px;
+    background:red;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index:10;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(38,38,38,1) 100%);
+
+    @media (min-width: @breakpoint-tablet) {
+    left:@nav-width;
+    width: (100% - @nav-width);
+  }
+
+  }
+
+
+.grid {
+  position: relative;
+}
+
+.cell,
+.grid-sizer {
+  float:left;
+  width:50%;
+
+  @media (max-width: @breakpoint-mobile) {
+    width:100%;
+  }
+
+  @media (min-width: @breakpoint-tablet) {
+    width:33%; 
+  }
+
+  @media (min-width: @breakpoint-desktop) {
+    width:33%;
+  }
+
+  @media (min-width: @breakpoint-wide) {
+    width:25%;
+  }
+}
+
+.item {
+  padding:10px;
+  background-color: @nav-bg;
+  margin:10px;
+}
+
+.item-type {
+  font-size:10px;
+  text-transform: uppercase;
+  margin:0;
+  color: @link-color;
+
+}
+
+.item-title h3 {
+  font-size: 22px;
+  color: @text-color;
+  line-height: 1;
+
+  &:hover {
+    color: @link-color;
+  }
+}
+
+.item-urls {
+  margin-top:20px;
+}
+
+.item-urls li {
+  display:inline;
+  padding-right:10px;
+
+}
+
+.item-urls a {
+  font-size:24px;
+}
+
+.item-tags li {
+  display:inline;
+  padding-right:5px;
+  font-size:10px;
+  color: @text-meta-color;
+  text-transform: uppercase;
+
+}
+
+.meta {
+  position: absolute;
+  padding:0px 5px 10px 20px;
+  width:100%;
+  bottom:0;
+  left:0;
+
+  p {
+    font-size:10px;
+    text-transform: uppercase;
+    color: @text-meta-color;
+  }
+
+
+  li {
+    display:inline-block;
+    margin-right:5px;
+    overflow:hidden;
+
+    &.twitter {
+      max-width:80px;
+    }
+
+    &.github {
+      width:75px;
+    }
+  }
+
+}
+

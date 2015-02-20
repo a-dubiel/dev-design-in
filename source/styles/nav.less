@@ -1,0 +1,104 @@
+.nav-main {
+  width: @nav-width;  
+  background: @nav-bg;
+  position:fixed;
+  left:-@nav-width;
+  overflow: hidden;
+
+  @media (min-width: @breakpoint-tablet) {
+    left:0;
+  }
+}
+
+.nav-main nav {
+
+    li {
+      line-height: @header-height;
+    }
+
+    a {
+      display:block;
+      width:100%;
+      padding-left:20px;
+
+      &:hover {
+        background-color: @nav-hover; 
+      }
+
+      &.active {
+        background-color: @nav-active; 
+        color: @text-color;
+      }
+    }
+  
+}
+
+
+.nav-filters {
+  display:block;
+  float:left;
+
+  ul {
+    padding-left:20px;
+  }
+
+  li {
+    display:block;
+    float:left;
+    line-height: @header-height;
+    margin-right:5px;
+  }
+
+  a {
+ 
+    padding: 3px 15px 4px;
+    border-radius: @border-radius-base;
+
+    &:hover {
+      background-color: @nav-hover;
+    }
+
+    &.active {
+      background-color: @nav-active;
+      border-radius: @border-radius-base;
+      color: @text-color;
+    }
+  }
+
+}
+
+.nav-mobile {
+  position: absolute;
+  top:0;
+  left:0;
+  display: block;
+  width: @header-height;
+  height: @header-height;
+  float:left;
+  background: @brand-primary;
+
+  @media (min-width: @breakpoint-tablet) {
+    display:none;
+  }
+}
+.nav-mobile span {
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+.nav-mobile span:before, .nav-mobile span:after {
+  position: absolute;
+  content: '';
+}
+.nav-mobile span, .nav-mobile span:before, .nav-mobile span:after {
+  width: 30px;
+  height: 4px;
+  background-color: @text-color;
+  display: block;
+}
+.nav-mobile span:before {
+  margin-top: -8px;
+}
+.nav-mobile span:after {
+  margin-top: 8px;
+}
