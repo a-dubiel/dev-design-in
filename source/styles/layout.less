@@ -4,11 +4,8 @@
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   position: relative;
   z-index:10;
-
   .clearfix(); 
-  
 }
-
 .logo {
   display: block;
   background: @brand-primary;
@@ -20,14 +17,12 @@
   font-size: 12px; 
   font-weight:700;
   line-height:@header-height; 
-
   @media (min-width: @breakpoint-tablet) {
     text-align:left;
     width:@nav-width;
     padding-left:20px;
   } 
 }
-
 .main {
   position: fixed;
   left:0;
@@ -40,107 +35,83 @@
     left:@nav-width;
     width: (100% - @nav-width);
   }
-
-
-
 }
-
- .shadow {
-    display:block;
-    width:100%;
-    height:0;
-    position: fixed;
-    bottom:0;
-    left:0;
-    z-index:10;
-    box-shadow: 0px -10px 40px 20px rgba(0,0,0,0.20);
-      
-    @media (min-width: @breakpoint-tablet) {
-      left:@nav-width;
-      width: (100% - @nav-width);
-    }
+.shadow {
+  display:block;
+  width:100%;
+  height:0;
+  position: fixed;
+  bottom:0;
+  left:0;
+  z-index:10;
+  box-shadow: 0px -10px 40px 20px rgba(0,0,0,0.20);
+  
+  @media (min-width: @breakpoint-tablet) {
+    left:@nav-width;
+    width: (100% - @nav-width);
   }
-
-
+}
 .grid {
   position: relative;
 }
-
 .cell,
 .grid-sizer {
   float:left;
   width:50%;
-
   @media (max-width: @breakpoint-mobile) {
     width:100%;
   }
-
   @media (min-width: @breakpoint-tablet) {
     width:33%; 
   }
-
   @media (min-width: @breakpoint-desktop) {
     width:33%;
   }
-
   @media (min-width: @breakpoint-wide) {
     width:25%;
   }
 }
-
 .item {
   padding:10px;
   background-color: @nav-bg;
   margin:10px;
   .transition(background-color 0.3s ease-in-out);
-
   &:hover {
     background-color: lighten(@nav-bg, 2%); 
   }
 }
-
 .item-type {
   font-size:10px;
   text-transform: uppercase;
   margin:0;
   color: @link-color;
-
 }
-
 .item-title h3 {
   font-size: 22px;
   color: @text-color;
   line-height: 1;
   .transition(color 0.3s ease-in-out);
-
   &:hover {
     color: @link-color;
   }
 }
-
 .item-urls {
   margin-top:20px;
 }
-
 .item-urls li {
   display:inline;
   padding-right:10px;
-
 }
-
 .item-urls a {
   font-size:24px;
 }
-
 .item-tags li {
   display:inline;
   padding-right:5px;
   font-size:10px;
   color: @text-meta-color;
   text-transform: uppercase;
-
 }
-
 .meta {
   text-align: center;
   margin-top:20px;
@@ -154,31 +125,23 @@
     text-align:left;
   }
   
-
   p {
     font-size:10px;
     text-transform: uppercase;
     color: @text-meta-color;
   }
-
   a {
-     color: @text-meta-color;
+   color: @text-meta-color;
+ }
+ li {
+  display:inline-block;
+  margin-right:5px;
+  overflow:hidden;
+  &.twitter {
+    max-width:80px;
   }
-
-
-  li {
-    display:inline-block;
-    margin-right:5px;
-    overflow:hidden;
-
-    &.twitter {
-      max-width:80px;
-    }
-
-    &.github {
-      width:75px;
-    }
+  &.github {
+    width:75px;
   }
-
 }
-
+}

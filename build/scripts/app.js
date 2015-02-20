@@ -6,6 +6,7 @@
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
 
+/**
 $(document).ready(function(){
 
   var header = $('.header').outerHeight(true);
@@ -29,4 +30,4 @@ $(document).ready(function(){
 
 
 });
-
+*/

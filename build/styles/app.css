@@ -1,7 +1,7 @@
 /*
  * dev-design-list
  * v. 0.0.1
- * Friday, February 20th, 2015, 4:44:17 PM
+ * Friday, February 20th, 2015, 4:59:12 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -2882,7 +2882,6 @@ dd
 {
     position: absolute;
     z-index: 11;
-    z-index: 10;
     top: 45px;
     left: -20%;
 
@@ -3025,6 +3024,19 @@ dd
 {
     display: block;
     float: left;
+
+    width: 100%;
+
+    text-align: center;
+}
+@media (min-width: 768px)
+{
+    .nav-filters
+    {
+        width: auto;
+
+        text-align: left;
+    }
 }
 .nav-filters ul
 {
@@ -3034,10 +3046,7 @@ dd
 {
     line-height: 45px;
 
-    display: block;
-    float: left;
-
-    margin-right: 5px;
+    display: inline-block;
 }
 .nav-filters a
 {
