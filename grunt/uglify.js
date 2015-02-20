@@ -11,5 +11,14 @@ exports.task = {
       dest: '<%= path.build %>/<%= path.scripts %>',
       ext: '.min.js',
     }]
-  }
+  },
+  components: {
+    files: [{
+      expand: true,
+      cwd: '<%= path.build %>/<%= path.scripts %>/<%= path.components %>',
+      src: ['*.js'], 
+      dest: '<%= path.build %>/<%= path.scripts %>/<%= path.components %>',
+      ext: '.min.js',
+    }]
+  },
 };

@@ -54,9 +54,6 @@ module.exports = function(grunt) {
     /* Images */
     imagemin              : require('./grunt/imagemin.js').task,
     svgmin                : require('./grunt/svgmin.js').task,
-
-    /* Bower */
-    bower                 : require('./grunt/bower.js').task,
     
     /* Misc */
     copy                  : require('./grunt/copy.js').task,
@@ -72,10 +69,9 @@ require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 /* Tasks */
 grunt.registerTask('default', ['dev', 'build']);
 grunt.registerTask('dev', ['connect', 'watch']);
-grunt.registerTask('build', ['buildbower', 'styles', 'scripts', 'images', 'misc']);
-grunt.registerTask('buildbower', ['bower', 'copy:bowerutils']);
+grunt.registerTask('build', ['styles','copy:components', 'scripts', 'images', 'misc']);
 grunt.registerTask('styles', ['less', 'autoprefixer', 'csslint', 'csscomb', 'csso']);
-grunt.registerTask('scripts', ['concat', 'uglify']);
+grunt.registerTask('scripts', ['concat', 'uglify:build']);
 grunt.registerTask('images', ['imagemin', 'svgmin']);
 grunt.registerTask('misc', ['htmlmin', 'copy:misc']);  
 

@@ -42,12 +42,17 @@ textarea {
 
 a {
   color: @link-color;
-  text-decoration: none;
+  text-decoration: none; 
+  transition-property: color, background-color;
+  .transition-duration(0.3s);
+  .transition-timing-function(ease-in-out);  
+
 
   &:hover,
   &:focus {
     color: @link-hover-color;
     text-decoration: @link-hover-decoration;
+
   }
 
   &:focus {
