@@ -1,7 +1,7 @@
 /*
- * dev-design-list
- * v. 0.0.1
- * Friday, February 20th, 2015, 5:07:53 PM
+ * dev-design-in
+ * v. 0.0.2
+ * Monday, February 23rd, 2015, 8:34:52 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -2850,6 +2850,7 @@ dd
     top: 45px;
     left: -20%;
 
+    visibility: hidden;
     overflow: hidden;
     overflow-y: scroll;
 
@@ -2881,6 +2882,9 @@ dd
         position: fixed;
         left: 0;
 
+        visibility: visible;
+        overflow-y: hidden;
+
         width: 20%;
 
         -webkit-transform: translateX(0);
@@ -2894,6 +2898,13 @@ dd
     }
     .nav-main nav a
     {
+        padding-left: 10px;
+    }
+}
+@media (min-width: 950px)
+{
+    .nav-main nav a
+    {
         padding-left: 20px;
     }
 }
@@ -2903,6 +2914,8 @@ dd
     {
         position: absolute;
         left: 0;
+
+        visibility: visible;
 
         width: 100%;
         height: 100% !important;
@@ -2922,7 +2935,6 @@ dd
     display: block;
 
     width: 100%;
-    padding-left: 20px;
 }
 .nav-main nav a:hover
 {
@@ -2932,6 +2944,38 @@ dd
 {
     color: #fefefe;
     background-color: #4e4e4e;
+}
+.nav-main nav .search-results
+{
+    font-size: 12px;
+    font-size: 11px;
+    line-height: 20px;
+
+    padding-left: 0;
+
+    color: #ababab;
+}
+@media (min-width: 768px)
+{
+    .nav-main nav .search-results
+    {
+        padding-left: 10px;
+    }
+}
+@media (min-width: 950px)
+{
+    .nav-main nav .search-results
+    {
+        padding-left: 20px;
+    }
+}
+.nav-main nav .search-results span
+{
+    display: none;
+}
+.nav-main nav .search-results span.show
+{
+    display: inline;
 }
 .search-input
 {
@@ -2947,12 +2991,31 @@ dd
 {
     .search-input
     {
+        line-height: 45px;
+
         width: 100%;
+        height: 45px;
+        padding: 0 10px;
+    }
+    .search-input.active
+    {
+        color: #fefefe;
+        background-color: #4e4e4e;
+    }
+}
+@media (min-width: 950px)
+{
+    .search-input
+    {
+        padding: 0 20px;
     }
 }
 .search-input .fa
 {
     line-height: 30px;
+
+    position: relative;
+    top: 1px;
 
     display: inline-block;
     float: left;
@@ -2962,13 +3025,31 @@ dd
 
     text-align: right;
 
+    color: #ababab;
     border-radius: 15px 0 0 15px;
     background: #4e4e4e;
+}
+@media (min-width: 768px)
+{
+    .search-input .fa
+    {
+        line-height: 45px;
+
+        width: 5%;
+        height: 45px;
+
+        text-align: left;
+
+        background: transparent;
+    }
 }
 .search-input input
 {
     line-height: 45px;
     line-height: 30px;
+
+    position: relative;
+    bottom: -1px;
 
     display: inline-block;
 
@@ -2984,6 +3065,31 @@ dd
 .search-input input:focus
 {
     outline: none;
+}
+@media (min-width: 768px)
+{
+    .search-input input
+    {
+        height: 45px;
+
+        background: transparent;
+    }
+}
+.search-input input::-webkit-input-placeholder
+{
+    font-size: 12px;
+}
+.search-input input::-moz-placeholder
+{
+    font-size: 12px;
+}
+.search-input input:-ms-input-placeholder
+{
+    font-size: 12px;
+}
+.search-input input:-moz-placeholder
+{
+    font-size: 12px;
 }
 .nav-filters
 {
@@ -3005,16 +3111,27 @@ dd
 }
 .nav-filters ul
 {
-    padding-left: 20px;
+    padding-left: 0;
+}
+@media (min-width: 768px)
+{
+    .nav-filters ul
+    {
+        padding-left: 20px;
+    }
 }
 .nav-filters li
 {
     line-height: 45px;
 
     display: inline-block;
+
+    margin-right: 2px;
 }
 .nav-filters a
 {
+    font-size: 11px;
+
     padding: 3px 15px 4px;
 
     border-radius: 15px;
@@ -3028,6 +3145,10 @@ dd
     color: #fefefe;
     border-radius: 15px;
     background-color: #4e4e4e;
+}
+.nav-filters.hide
+{
+    display: none;
 }
 .nav-mobile
 {
@@ -3205,10 +3326,21 @@ dd
     .logo
     {
         width: 20%;
-        padding-left: 20px;
+        padding-left: 10px;
 
         text-align: left;
     }
+}
+@media (min-width: 950px)
+{
+    .logo
+    {
+        padding-left: 20px;
+    }
+}
+.logo a
+{
+    color: #fefefe;
 }
 .main
 {
@@ -3219,7 +3351,7 @@ dd
 
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 @media (min-width: 768px)
 {
@@ -3405,4 +3537,74 @@ dd
 .meta li.github
 {
     width: 75px;
+}
+.about
+{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+    visibility: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    transition: opacity .3s ease-in-out;
+
+    opacity: 0;
+    background: rgba(38, 38, 38, .9);
+}
+.about .close
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.about .modal
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width: 90%;
+    padding: 20px;
+
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+    background: #373737;
+}
+@media (min-width: 768px)
+{
+    .about .modal
+    {
+        width: auto;
+    }
+}
+.about .modal p
+{
+    color: #ababab;
+}
+.about .modal p:last-of-type
+{
+    margin-bottom: 0;
+}
+.about .modal a
+{
+    color: #fefefe;
+}
+.about .modal a:hover
+{
+    color: #ababab;
+}
+.about .modal h4
+{
+    margin-top: 0;
+}
+.modal-opened
+{
+    visibility: visible;
+
+    opacity: 1;
 }

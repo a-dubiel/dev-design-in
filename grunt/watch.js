@@ -23,6 +23,13 @@ exports.task = {
       spawn: false,
     }
   },
+  data:{
+    files: '<%= path.source %>/<%= path.data %>/*.json',
+    tasks: 'copy:data',
+    options: {
+      spawn: false
+    }
+  },  
   html:{
     files: '<%= path.source %>/<%= path.views %>/**/*.html',
     tasks: 'htmlmin',

@@ -1,0 +1,257 @@
+{
+  "categories": [
+    { 
+      "slug": "",
+      "name": "Recently Added",
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "tag-3",
+          "name": "Cat1 Tag 3"
+        }
+      ]
+    },
+    {
+      "slug": "category-2",
+      "name": "Category 2",
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "tag-2",
+          "name": "Cat2 Tag 2"
+        },
+        {
+          "slug": "tag-3",
+          "name": "Cat2 Tag 3"
+        }
+      ]
+    },
+    {
+      "slug": "category-3",
+      "name": "Category 3",
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "tag-2",
+          "name": "Cat3 Tag 2"
+        },
+        {
+          "slug": "tag-3",
+          "name": "Cat3 Tag 3"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "type": "blog",
+      "categories": [
+        {
+          "slug": "blogs"
+        }
+      ],
+      "title": "Smashing Magazine",
+      "mainUrl": "http://www.google.com",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.example.com"
+        },
+        {
+          "icon": "github",
+          "url": "http://www.github.com"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://www.twitter.com"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "html2",
+          "name": "HTML2"
+        },
+        {
+          "slug": "html3",
+          "name": "HTML3"
+        }
+      ],
+      "keywords": "smashing magazine blog"
+    },
+    {
+      "type": "article",
+      "categories": [
+        {
+          "slug": "category-2"
+        }
+      ],
+      "title": "Sample article",
+      "mainUrl": "http://www.google.com",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.example.com"
+        },
+        {
+          "icon": "github",
+          "url": "http://www.github.com"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://www.twitter.com"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "html2",
+          "name": "HTML2"
+        },
+        {
+          "slug": "html3",
+          "name": "HTML3"
+        }
+      ],
+      "keywords": "sraka kupa ciota brama"
+    },
+    {
+      "type": "article",
+      "categories": [
+        {
+          "slug": "category-2"
+        }
+      ],
+      "title": "Sample article",
+      "mainUrl": "http://www.google.com",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.example.com"
+        },
+        {
+          "icon": "github",
+          "url": "http://www.github.com"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://www.twitter.com"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "html2",
+          "name": "HTML2"
+        },
+        {
+          "slug": "html3",
+          "name": "HTML3"
+        }
+      ],
+      "keywords": "animation" 
+    },
+    {
+      "type": "article",
+      "categories": [
+        {
+          "slug": "category-2"
+        }
+      ],
+      "title": "Sample article",
+      "mainUrl": "http://www.google.com",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.example.com"
+        },
+        {
+          "icon": "github",
+          "url": "http://www.github.com"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://www.twitter.com"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "html2",
+          "name": "HTML2"
+        },
+        {
+          "slug": "html3",
+          "name": "HTML3"
+        }
+      ],
+      "keywords": "ruby php"
+    },
+    {
+      "type": "article",
+      "categories": [
+        {
+          "slug": "category-2"
+        }
+      ],
+      "title": "Sample article",
+      "mainUrl": "http://www.google.com",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.example.com"
+        },
+        {
+          "icon": "github",
+          "url": "http://www.github.com"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://www.twitter.com"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "html",
+          "name": "HTML"
+        },
+        {
+          "slug": "html2",
+          "name": "HTML2"
+        },
+        {
+          "slug": "html3",
+          "name": "HTML3"
+        }
+      ],
+      "keywords": "html javascript"
+    }
+    
+    
+  ]
+}

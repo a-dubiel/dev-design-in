@@ -25,6 +25,17 @@
 #     Header set Access-Control-Allow-Origin "*"
 # </IfModule>
 
+
+
+RewriteEngine On 
+Options FollowSymLinks
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /#/$1 [L]
+
 # ----------------------------------------------------------------------
 # | Cross-origin images                                                |
 # ----------------------------------------------------------------------

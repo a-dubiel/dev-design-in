@@ -6,6 +6,13 @@ exports.task = {
     dest: '<%= path.build %>', 
     dot: true 
   },
+  data: {       
+    expand: true,
+    cwd: '<%= path.source %>/<%= path.data %>',
+    src: '**/*',
+    dest: '<%= path.build %>/<%= path.data %>', 
+    dot: true 
+  },
   components: {
     expand: true,
     flatten: true,

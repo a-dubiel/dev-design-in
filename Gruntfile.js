@@ -17,6 +17,7 @@ module.exports = function(grunt) {
       scripts     : 'scripts',
       styles      : 'styles',
       views       : 'views', 
+      data        : 'data',
       components  : 'components',
       misc        : 'misc',
       fonts       : 'fonts' 
@@ -69,7 +70,7 @@ require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 /* Tasks */
 grunt.registerTask('default', ['dev', 'build']);
 grunt.registerTask('dev', ['connect', 'watch']);
-grunt.registerTask('build', ['styles','copy:components', 'scripts', 'images', 'misc']);
+grunt.registerTask('build', ['styles','copy:components', 'copy:data', 'scripts', 'images', 'misc']);
 grunt.registerTask('styles', ['less', 'autoprefixer', 'csslint', 'csscomb', 'csso']);
 grunt.registerTask('scripts', ['concat', 'uglify:build']);
 grunt.registerTask('images', ['imagemin', 'svgmin']);
