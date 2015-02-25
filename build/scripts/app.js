@@ -1,13 +1,14 @@
 /*
  * dev-design-in
  * v. 0.0.3
- * Tuesday, February 24th, 2015, 9:01:27 PM
+ * Tuesday, February 24th, 2015, 9:09:00 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
 
 
 var app = angular.module('app', ['ui.router', 'ngResize']); 
+
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 'resizeProvider', 
   function($stateProvider, $urlRouterProvider, $locationProvider, resizeProvider) {
     $urlRouterProvider.otherwise('/');
@@ -32,6 +33,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 'resize
     resizeProvider.throttle = 500;
     resizeProvider.initBind = true;
   }]); 
+
 app.controller('MainCtrl', [ '$rootScope', '$scope', '$state', '$filter', 'collectionData', 
   function($rootScope, $scope, $state, $filter, collectionData){
     $scope.init = function() {

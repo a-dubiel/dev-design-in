@@ -1,7 +1,7 @@
 /*
  * dev-design-in
  * v. 0.0.3
- * Tuesday, February 24th, 2015, 12:20:56 AM
+ * Tuesday, February 24th, 2015, 9:12:06 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -3173,7 +3173,7 @@ dd
 .nav-mobile span
 {
     position: relative;
-    top: 20px;
+    top: 18px;
 
     margin: 0 auto;
 }

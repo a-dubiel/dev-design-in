@@ -1,5 +1,6 @@
 
 var app = angular.module('app', ['ui.router', 'ngResize']); 
+
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 'resizeProvider', 
   function($stateProvider, $urlRouterProvider, $locationProvider, resizeProvider) {
     $urlRouterProvider.otherwise('/');
@@ -24,6 +25,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 'resize
     resizeProvider.throttle = 500;
     resizeProvider.initBind = true;
   }]); 
+
 app.controller('MainCtrl', [ '$rootScope', '$scope', '$state', '$filter', 'collectionData', 
   function($rootScope, $scope, $state, $filter, collectionData){
     $scope.init = function() {
