@@ -3,6 +3,7 @@
     { 
       "slug": "",
       "name": "Recently Added",
+      "order":1,
       "tags": [
         {
           "slug": "html",
@@ -18,39 +19,153 @@
         }
       ]
     },
-    {
-      "slug": "category-2",
-      "name": "Category 2",
+    { 
+      "slug": "learn",
+      "name": "Learn",
+      "order": 4,
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "html-css",
+          "name": "HTML/CSS"
         },
         {
-          "slug": "tag-2",
-          "name": "Cat2 Tag 2"
+          "slug": "javascript",
+          "name": "Javascript"
         },
         {
-          "slug": "tag-3",
-          "name": "Cat2 Tag 3"
+          "slug": "database",
+          "name": "Databases"
+        },
+        {
+          "slug": "php",
+          "name": "PHP"
+        },
+        {
+          "slug": "mobile",
+          "name": "Mobile"
+        },
+        {
+          "slug": "python",
+          "name": "Python"
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby"
+        },
+        {
+          "slug": "design",
+          "name": "Design"
+        },
+        {
+          "slug": "misc",
+          "name": "Misc"
         }
       ]
     },
     {
-      "slug": "category-3",
-      "name": "Category 3",
+      "slug": "blogs-news",
+      "name": "News & Blogs",
+      "order": 2,
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "news",
+          "name": "News"
         },
         {
-          "slug": "tag-2",
-          "name": "Cat3 Tag 2"
+          "slug": "community",
+          "name": "Community"
         },
         {
-          "slug": "tag-3",
-          "name": "Cat3 Tag 3"
+          "slug": "inspiration",
+          "name": "Inspiration"
+        }
+      ]
+    },
+    {
+      "slug": "inspiration",
+      "name": "Inspiration",
+      "order": 3,
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        },
+        {
+          "slug": "awards",
+          "name": "Awards"
+        },
+        {
+          "slug": "mobile",
+          "name": "Mobile"
+        },
+        {
+          "slug": "web",
+          "name": "Web"
+        },
+        {
+          "slug": "social",
+          "name": "Social"
+        },
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patters"
+        }
+      ]
+    },
+    {
+      "slug": "plugins",
+      "name": "Plugins",
+      "order": 5,
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        }
+      ]
+    },
+    {
+      "slug": "resources",
+      "name": "Resources",
+      "order": 8,
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        }
+      ]
+    },
+    {
+      "slug": "development",
+      "name": "Development",
+      "order": 7,
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
         }
       ]
     }

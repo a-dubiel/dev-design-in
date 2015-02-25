@@ -9,7 +9,7 @@
   <title>devdesign.in</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/">
+  <base href="/"> 
 
   <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
   <link rel="stylesheet" href="styles/app.min.css">
@@ -52,8 +52,8 @@
         <li class="search-results">&nbsp;<span ng-class="{show: search }">{{ resultCount == 0 ? 'Nothing found' : resultCount + ' ' + (resultCount == 1 ? 'result' : 'results')}}</span></li>
 
         <li class="separator">&nbsp;</li> 
-        <li><a href="#" ng-click="modal()">About</a></li>
-        <li><a href="#" ng-click="modal()">Suggest a site</a></li>
+        <li><a href="javascript:;" ng-click="modal()">About</a></li>
+        <li><a href="javascript:;" ng-click="modal()">Suggest a site</a></li>
       </ul>
     </nav>
     <footer class="meta">
@@ -74,7 +74,7 @@
 
   <aside class="about" role="complementary">
     <div class="modal">
-      <a href="#" class="close" ng-click="modal()"><i class="fa fa-times"></i></a>
+      <a href="javascript:;" class="close" ng-click="modal()"><i class="fa fa-times"></i></a>
       <h4>About</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus quidem expedita, ipsam rerum, quaerat, asperiores tempore itaque dolor laudantium ab. Placeat enim maxime ab quod obcaecati ipsum omnis repellat.</p>
       <h4>Suggest a site</h4>

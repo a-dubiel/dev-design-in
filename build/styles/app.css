@@ -1,7 +1,7 @@
 /*
  * dev-design-in
- * v. 0.0.2
- * Monday, February 23rd, 2015, 8:34:52 PM
+ * v. 0.0.3
+ * Tuesday, February 24th, 2015, 12:20:56 AM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -2847,7 +2847,7 @@ dd
 {
     position: absolute;
     z-index: 11;
-    top: 45px;
+    top: 40px;
     left: -20%;
 
     visibility: hidden;
@@ -2928,7 +2928,7 @@ dd
 }
 .nav-main nav li
 {
-    line-height: 45px;
+    line-height: 40px;
 }
 .nav-main nav a
 {
@@ -2991,10 +2991,10 @@ dd
 {
     .search-input
     {
-        line-height: 45px;
+        line-height: 40px;
 
         width: 100%;
-        height: 45px;
+        height: 40px;
         padding: 0 10px;
     }
     .search-input.active
@@ -3033,10 +3033,10 @@ dd
 {
     .search-input .fa
     {
-        line-height: 45px;
+        line-height: 40px;
 
         width: 5%;
-        height: 45px;
+        height: 40px;
 
         text-align: left;
 
@@ -3045,7 +3045,7 @@ dd
 }
 .search-input input
 {
-    line-height: 45px;
+    line-height: 40px;
     line-height: 30px;
 
     position: relative;
@@ -3070,7 +3070,7 @@ dd
 {
     .search-input input
     {
-        height: 45px;
+        height: 40px;
 
         background: transparent;
     }
@@ -3093,8 +3093,7 @@ dd
 }
 .nav-filters
 {
-    display: block;
-    float: left;
+    display: inline-block;
 
     width: 100%;
 
@@ -3122,7 +3121,7 @@ dd
 }
 .nav-filters li
 {
-    line-height: 45px;
+    line-height: 40px;
 
     display: inline-block;
 
@@ -3159,8 +3158,8 @@ dd
     display: block;
     float: left;
 
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 
     background: #d35400;
 }
@@ -3288,6 +3287,8 @@ dd
     position: relative;
     z-index: 10;
 
+    overflow: hidden;
+
     width: 100%;
 
     background-color: #373737;
@@ -3304,17 +3305,25 @@ dd
 {
     clear: both;
 }
+@media (min-width: 768px)
+{
+    .header
+    {
+        height: 40px;
+
+        white-space: nowrap;
+    }
+}
 .logo
 {
     font-size: 12px;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 40px;
 
-    display: block;
-    float: left;
+    display: inline-block;
 
     width: 100%;
-    height: 45px;
+    height: 40px;
 
     text-align: center;
 

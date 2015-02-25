@@ -4,14 +4,20 @@
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   position: relative;
   z-index:10;
+  overflow:hidden;
+
   .clearfix(); 
+  @media (min-width: @breakpoint-tablet) {
+      height:@header-height;
+      white-space: nowrap;
+  }
+
 }
 .logo {
-  display: block;
+  display: inline-block;
   background: @brand-primary;
   height: @header-height;
   width:100%;
-  float:left;  
   text-align:center;
   font-size: 12px; 
   font-weight:700;
