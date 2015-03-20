@@ -8,11 +8,12 @@
 
   .clearfix(); 
   @media (min-width: @breakpoint-tablet) {
-      height:@header-height;
-      white-space: nowrap;
+    height:@header-height;
+    white-space: nowrap;
   }
 
 }
+
 .logo {
   display: inline-block;
   background: @brand-primary;
@@ -29,11 +30,11 @@
     padding-left:10px;
   } 
   @media (min-width: @breakpoint-desktop) {
-  padding-left:20px;
+    padding-left:20px;
   }
 
   a {
-  color: @text-color;
+    color: @text-color;
   }
 }
 .main {
@@ -185,8 +186,9 @@
     padding:20px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) rotateX(-35deg);
     background: @nav-bg;
+    .transition(transform 0.3s linear);
     @media (min-width: @breakpoint-tablet) {
       width:auto;
     }
@@ -216,4 +218,8 @@
 .modal-opened {
   opacity:1;
   visibility: visible;
+
+  .modal {
+    transform: translate(-50%,-50%) rotateX(0);
+  }
 }

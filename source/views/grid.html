@@ -3,7 +3,7 @@
 <div class="cell" ng-repeat="item in items | limitTo: limit" ng-model="items">  
   <div class="item">
       <span class="item-type">{{ item.type }}</span>
-      <a href="#" class="item-title"><h3>{{ item.title }}</h3></a>
+      <a href="{{ item.mainUrl }}" target="_blank" class="item-title"><h3>{{ item.title }}</h3></a>
       <ul class="item-urls">
           <li ng-repeat="url in item.otherUrls"><a href="{{ url.url }}" target="_blank"><i class="fa fa-{{ url.icon }}"></i></a></li>
       </ul>

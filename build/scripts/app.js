@@ -1,7 +1,7 @@
 /*
  * dev-design-in
  * v. 0.0.3
- * Tuesday, February 24th, 2015, 9:09:00 PM
+ * Tuesday, March 3rd, 2015, 2:10:28 AM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -41,7 +41,7 @@ app.controller('MainCtrl', [ '$rootScope', '$scope', '$state', '$filter', 'colle
       $rootScope.collection = collectionData;
       $rootScope.categories = $filter('orderBy')($rootScope.collection.categories, '+order');
       $rootScope.current = $state.params.slug;
-      $rootScope.limitAll = 5;
+      $rootScope.limitAll = 20;
       var check = $filter('filter')($rootScope.collection.categories, { 'slug': $rootScope.current},true);
       if(check.length > 0) {
         $rootScope.currentTag = 'all';

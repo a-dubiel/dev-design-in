@@ -1,7 +1,7 @@
 /*
  * dev-design-in
  * v. 0.0.3
- * Tuesday, February 24th, 2015, 9:12:06 PM
+ * Monday, March 9th, 2015, 11:08:16 PM
  * 
  * 2015 Andrzej Dubiel | http://adubiel.me/
  */
@@ -3143,7 +3143,7 @@ dd
 {
     color: #fefefe;
     border-radius: 15px;
-    background-color: #4e4e4e;
+    background-color: #16a085;
 }
 .nav-filters.hide
 {
@@ -3161,7 +3161,7 @@ dd
     width: 40px;
     height: 40px;
 
-    background: #d35400;
+    background: #16a085;
 }
 @media (min-width: 768px)
 {
@@ -3328,7 +3328,7 @@ dd
     text-align: center;
 
     color: #fefefe;
-    background: #d35400;
+    background: #16a085;
 }
 @media (min-width: 768px)
 {
@@ -3579,8 +3579,10 @@ dd
     width: 90%;
     padding: 20px;
 
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transition: -webkit-transform .3s linear;
+    transition:         transform .3s linear;
+    -webkit-transform: translate(-50%, -50%) rotateX(-35deg);
+            transform: translate(-50%, -50%) rotateX(-35deg);
 
     background: #373737;
 }
@@ -3616,4 +3618,9 @@ dd
     visibility: visible;
 
     opacity: 1;
+}
+.modal-opened .modal
+{
+    -webkit-transform: translate(-50%, -50%) rotateX(0);
+            transform: translate(-50%, -50%) rotateX(0);
 }

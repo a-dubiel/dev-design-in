@@ -14,8 +14,8 @@
           "name": "Javascript"
         },
         {
-          "slug": "tag-3",
-          "name": "Cat1 Tag 3"
+          "slug": "inspiration",
+          "name": "Inspiration"
         }
       ]
     },
@@ -24,6 +24,10 @@
       "name": "Learn",
       "order": 4,
       "tags": [
+        {
+          "slug": "tutorials",
+          "name": "Tutorials"
+        },
         {
           "slug": "html-css",
           "name": "HTML/CSS"
@@ -63,13 +67,25 @@
       ]
     },
     {
-      "slug": "blogs-news",
+      "slug": "news-blogs",
       "name": "News & Blogs",
       "order": 2,
       "tags": [
         {
+          "slug": "daily",
+          "name": "Daily"
+        },
+        {
           "slug": "news",
           "name": "News"
+        },
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
         },
         {
           "slug": "community",
@@ -91,24 +107,20 @@
           "name": "Showcase"
         },
         {
+          "slug": "mixed",
+          "name": "Mixed"
+        },
+        {
           "slug": "awards",
           "name": "Awards"
         },
         {
-          "slug": "mobile",
-          "name": "Mobile"
-        },
-        {
-          "slug": "web",
-          "name": "Web"
-        },
-        {
-          "slug": "social",
-          "name": "Social"
+          "slug": "typography",
+          "name": "Typography"
         },
         {
           "slug": "colors-patterns",
-          "name": "Colors/Patters"
+          "name": "Colors/Patterns"
         }
       ]
     },
@@ -118,16 +130,40 @@
       "order": 5,
       "tags": [
         {
-          "slug": "news",
-          "name": "News"
+          "slug": "audio-video",
+          "name": "Audio & Video"
         },
         {
-          "slug": "community",
-          "name": "Community"
+          "slug": "animation",
+          "name": "Animation"
         },
         {
-          "slug": "inspiration",
-          "name": "Inspiration"
+          "slug": "ui-elements",
+          "name": "UI Elements"
+        },
+        {
+          "slug": "scrolling",
+          "name": "Scrolling"
+        },
+        {
+          "slug": "typography",
+          "name": "Typography"
+        },
+        {
+          "slug": "date",
+          "name": "Date"
+        },
+        {
+          "slug": "charts",
+          "name": "Charts"
+        },
+        {
+          "slug": "maps",
+          "name": "Maps"
+        }, 
+        {
+          "slug": "misc",
+          "name": "Misc"
         }
       ]
     },
@@ -137,16 +173,40 @@
       "order": 8,
       "tags": [
         {
-          "slug": "news",
-          "name": "News"
+          "slug": "editors",
+          "name": "Editors"
         },
         {
-          "slug": "community",
-          "name": "Community"
+          "slug": "ui-kits",
+          "name": "UI Kits"
         },
         {
-          "slug": "inspiration",
-          "name": "Inspiration"
+          "slug": "freebies",
+          "name": "Freebies"
+        },
+        {
+          "slug": "photos",
+          "name": "Photos"
+        },
+        {
+          "slug": "icons",
+          "name": "Icons"
+        },
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        },
+        {
+          "slug": "books",
+          "name": "Books"
+        },
+        {
+          "slug": "misc",
+          "name": "Misc"
+        },
+        {
+          "slug": "lolz",
+          "name": "Lolz"
         }
       ]
     },
@@ -156,216 +216,2810 @@
       "order": 7,
       "tags": [
         {
-          "slug": "news",
-          "name": "News"
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }, 
+        {
+          "slug": "generators",
+          "name": "Generators"
         },
         {
-          "slug": "community",
-          "name": "Community"
+          "slug": "cheatsheets",
+          "name": "Cheatsheets"
         },
         {
-          "slug": "inspiration",
-          "name": "Inspiration"
+          "slug": "addons",
+          "name": "Addons"
+        },
+        {
+          "slug": "task-management",
+          "name": "Task Management"
+        },
+        {
+          "slug": "tools",
+          "name": "Tools"
+        },
+        {
+          "slug": "optimization",
+          "name": "Optimization"
+        },
+        {
+          "slug": "resets",
+          "name": "Resets"
+        },
+         {
+          "slug": "misc",
+          "name": "Misc"
+        }
+      ]
+    },
+    { 
+      "slug": "events",
+      "name": "Events",
+      "order":9,
+      "tags": [
+        {
+          "slug": "usa",
+          "name": "USA"
+        },
+        {
+          "slug": "europe",
+          "name": "Europe"
+        },
+        {
+          "slug": "south-america",
+          "name": "South America"
+        },
+        {
+          "slug": "asia",
+          "name": "Asia"
+        },
+        {
+          "slug": "other",
+          "name": "Other"
         }
       ]
     }
   ],
   "items": [
-    {
-      "type": "blog",
+  {
+      "type": "Typography",
       "categories": [
         {
-          "slug": "blogs"
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Type Release", 
+      "mainUrl": "http://tumblr.typerelease.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://tumblr.typerelease.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "typography",
+          "name": "Typography"
+        }               
+      ],
+      "keywords": "typography inspiration"
+    },
+    {
+      "type": "Typography",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Type Genius", 
+      "mainUrl": "http://www.typegenius.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.typegenius.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "typography",
+          "name": "Typography"
+        }               
+      ],
+      "keywords": "typography inspiration"
+    },
+  {
+      "type": "Typography",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Fonts In Use", 
+      "mainUrl": "http://fontsinuse.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://fontsinuse.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "typography",
+          "name": "Typography"
+        }               
+      ],
+      "keywords": "typography inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Popular Pinterest Boards", 
+      "mainUrl": "https://www.pinterest.com/search/boards/?q=web+design+inspiration",
+      "otherUrls": [
+        {
+          "icon": "pinterest",
+          "url": "https://www.pinterest.com/search/boards/?q=web+design+inspiration"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase pinterest inspiration"
+    },
+     {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Nice Portfolio", 
+      "mainUrl": "http://niceportfol.io/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://niceportfol.io/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase inspiration"
+    },
+
+   {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Unmatched Style", 
+      "mainUrl": "http://unmatchedstyle.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.siteinspire.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase inspiration"
+    },
+    {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Site Inspire", 
+      "mainUrl": "http://www.siteinspire.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.siteinspire.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Siiimple", 
+      "mainUrl": "http://www.siiimple.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.siiimple.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Really Good E-mails", 
+      "mainUrl": "http://reallygoodemails.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://reallygoodemails.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase email inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Pttrns", 
+      "mainUrl": "http://www.pttrns.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.pttrns.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "One Page Love", 
+      "mainUrl": "https://onepagelove.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://onepagelove.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase one page single inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Niice", 
+      "mainUrl": "https://niice.co/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://niice.co/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase niice inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Mobile Patterns", 
+      "mainUrl": "http://www.mobile-patterns.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.mobile-patterns.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase mobile patterns inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Mobile Inspiration", 
+      "mainUrl": "http://inspirationmobile.tumblr.com/",
+      "otherUrls": [
+        {
+          "icon": "tumblr",
+          "url": "http://inspirationmobile.tumblr.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase mobile inspiration"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Make Better Websites", 
+      "mainUrl": "http://makebetterwebsites.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://makebetterwebsites.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Designspiration", 
+      "mainUrl": "http://designspiration.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://designspiration.net/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "CSSDsgn", 
+      "mainUrl": "http://www.cssdsgn.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.cssdsgn.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Brand New", 
+      "mainUrl": "http://www.underconsideration.com/brandnew/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.underconsideration.com/brandnew/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "showcase"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Aboard", 
+      "mainUrl": "http://aboard.io/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://aboard.io/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "aboard showcase"
+    },
+   {
+      "type": "Palettes",
+      "categories": [
+        {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "development"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Subtle Patterns", 
+      "mainUrl": "http://subtlepatterns.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://subtlepatterns.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        },
+         {
+          "slug": "generators",
+          "name": "Generators"
+        }
+
+      ],
+      "keywords": "subtle patterns generators"
+    },
+    {
+      "type": "Palettes",
+      "categories": [
+        {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "development"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Palette Generator", 
+      "mainUrl": "http://palettegenerator.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://palettegenerator.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        },
+         {
+          "slug": "generators",
+          "name": "Generators"
+        }
+
+      ],
+      "keywords": "flat ui colors generators pallette"
+    },
+  {
+      "type": "Colors",
+      "categories": [
+         {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "development"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Flat UI Colors", 
+      "mainUrl": "http://flatuicolors.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://flatuicolors.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        },
+         {
+          "slug": "generators",
+          "name": "Generators"
+        }
+              
+      ],
+      "keywords": "flat ui colors palette generator" 
+    },
+  {
+      "type": "Colors",
+      "categories": [
+         {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "development"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Flat UI Color Picker", 
+      "mainUrl": "http://www.flatuicolorpicker.com/all",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.flatuicolorpicker.com/all"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        },
+         {
+          "slug": "generators",
+          "name": "Generators"
+        }
+              
+      ],
+      "keywords": "flat ui colors generator"
+    },
+  {
+      "type": "Colors/Patterns",
+      "categories": [
+         {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "development"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Colourlovers", 
+      "mainUrl": "http://www.colourlovers.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.colourlovers.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        },
+         {
+          "slug": "generators",
+          "name": "Generators"
+        }
+              
+      ],
+      "keywords": "color lovers"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Line 25", 
+      "mainUrl": "http://line25.com/category/inspiration",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://line25.com/category/inspiration"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }               
+      ],
+      "keywords": "line 25 blog"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "FWA - Favorite Website Awards", 
+      "mainUrl": "http://www.thefwa.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.thefwa.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        },
+        {
+          "slug": "awards",
+          "name": "Awards"
+        }
+        
+               
+      ],
+      "keywords": "fwa showcase awards blog"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "David Walsh Blog", 
+      "mainUrl": "http://davidwalsh.name/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://tympanus.net/codrops/css_reference/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "tutorials",
+          "name": "Tutorials"
+        }
+               
+      ],
+      "keywords": "david walsh blog"
+    },
+
+  {
+      "type": "Reference",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "Codrops CSS Reference", 
+      "mainUrl": "http://tympanus.net/codrops/css_reference/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://tympanus.net/codrops/css_reference/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        },
+        {
+          "slug": "cheatsheets",
+          "name": "Cheatsheets"
+        }
+               
+      ],
+      "keywords": "reference css codrops"
+    },
+   {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Sara Soueidan", 
+      "mainUrl": "http://sarasoueidan.com/index.html",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://sarasoueidan.com/index.html"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "tutorials",
+          "name": "Tutorials"
+        }
+               
+      ],
+      "keywords": "javascript sara soueidan"
+    },
+   {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "John Papa", 
+      "mainUrl": "http://www.johnpapa.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.johnpapa.net/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "javascript john papa"
+    },
+
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Web Platform Daily", 
+      "mainUrl": "http://webplatformdaily.org/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://webplatformdaily.org/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "web platform daily"
+    },
+  {
+      "type": "Newsletter",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "JS Weekly", 
+      "mainUrl": "http://javascriptweekly.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://javascriptweekly.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "javascript weekly newsletter"
+    },
+  {
+      "type": "Newsletter",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "HTML5 Weekly", 
+      "mainUrl": "http://html5weekly.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://html5weekly.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "html5 weekly newsletter"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "HTML5 Rocks", 
+      "mainUrl": "http://www.html5rocks.com/en/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.html5rocks.com/en/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "html5 rocks"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Dev.Opera", 
+      "mainUrl": "https://dev.opera.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://dev.opera.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "dev opera news"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Daily JS", 
+      "mainUrl": "http://dailyjs.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://dailyjs.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "daily js javascript"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "CSS Wizardry", 
+      "mainUrl": "http://csswizardry.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://csswizardry.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "web css wizardry"
+    },
+  {
+      "type": "Newsletter",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "CSS Weekly", 
+      "mainUrl": "http://css-weekly.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://css-weekly.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "web css weekly newsletter"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Web Design Weekly", 
+      "mainUrl": "http://web-design-weekly.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://web-design-weekly.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/webdesignweekly"
+        },{
+          "icon": "twitter",
+          "url": "https://twitter.com/wdweekly"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }
+               
+      ],
+      "keywords": "web designer weekly"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "The Next Web", 
+      "mainUrl": "http://thenextweb.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://thenextweb.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://www.facebook.com/thenextweb"
+        },{
+          "icon": "twitter",
+          "url": "http://www.twitter.com/thenextweb"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }           
+      ],
+      "keywords": "the next web"
+    },
+  {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "24 Ways", 
+      "mainUrl": "http://24ways.org/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://24ways.org/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        }          
+      ],
+      "keywords": "24 ways blog"
+    },
+
+   {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "WebDevRadio", 
+      "mainUrl": "http://webdevradio.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://webdevradio.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast webdevradio"
+    },
+
+  {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "The Web Ahead Podcast", 
+      "mainUrl": "http://5by5.tv/webahead",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://5by5.tv/webahead"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast web ahead"
+    },
+
+{
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "The Big Web Show", 
+      "mainUrl": "http://5by5.tv/bigwebshow",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://5by5.tv/bigwebshow"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast pagebreak"
+    },
+
+
+
+   {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Page Break Podcast", 
+      "mainUrl": "http://www.pagebreakpodcast.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.pagebreakpodcast.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast pagebreak"
+    },
+
+    {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "On The Grid", 
+      "mainUrl": "http://onthegrid.co/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://onthegrid.co/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast on the grid"
+    },
+
+  {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Let's Make Mistakes", 
+      "mainUrl": "http://www.muleradio.net/mistakes/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://javascriptjabber.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast mistakes"
+    },
+  {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Javascript Jabber", 
+      "mainUrl": "http://javascriptjabber.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://javascriptjabber.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast jabber"
+    },
+  {
+      "type": "Podcasts",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Boagworld", 
+      "mainUrl": "https://boagworld.com/show/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://theultralinx.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "podcasts",
+          "name": "Podcasts"
+        }            
+      ],
+      "keywords": "podcast boagworld"
+    },
+  {
+      "type": "Mixed",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "UltraLinx", 
+      "mainUrl": "http://theultralinx.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://theultralinx.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        }            
+      ],
+      "keywords": "UltraLinx news"
+    },
+  {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Sidebar", 
+      "mainUrl": "http://sidebar.io/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://sidebar.io/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://www.facebook.com/SidebarIO"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/SidebarIO"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        }         
+      ],
+      "keywords": "sidebar news"
+    },
+  {
+      "type": "Inspiration",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "From Up North", 
+      "mainUrl": "http://www.fromupnorth.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.fromupnorth.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://www.facebook.com/fromupnorth"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/fromupnorth"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        },
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        }         
+      ],
+      "keywords": "from up north web news"
+    },
+  {
+      "type": "Inspiration",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "I Love Typography", 
+      "mainUrl": "http://ilovetypography.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://ilovetypography.com/"
+        } 
+      ],
+      "tags": [
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        },
+        {
+          "slug": "typography",
+          "name": "Typography"
+        }         
+      ],
+      "keywords": "typography inspiration"
+    },
+  {
+      "type": "Newsletter",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "eWebDesign", 
+      "mainUrl": "http://ewebdesign.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://ewebdesign.com/"
+        } 
+      ],
+      "tags": [
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        },
+        {
+          "slug": "news",
+          "name": "News"
+        }         
+      ],
+      "keywords": "eWebDesign newsletter"
+    },
+   {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Design Shack", 
+      "mainUrl": "http://designshack.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://designshack.net/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://facebook.com/designshack"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/designshack"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        },
+        {
+          "slug": "news",
+          "name": "News"
+        }         
+      ],
+      "keywords": "design shack"
+    },
+  {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Demosthenes", 
+      "mainUrl": "http://demosthenes.info/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://demosthenes.info/"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/dudleystorey"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        },
+        {
+          "slug": "news",
+          "name": "News"
+        }         
+      ],
+      "keywords": "demosthenes"
+    },
+  {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "CSS Author", 
+      "mainUrl": "http://www.cssauthor.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.cssauthor.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://www.facebook.com/cssauthor"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/cssauthor"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        },
+        {
+          "slug": "freebies",
+          "name": "Freebies"
+        }         
+      ],
+      "keywords": "css author design inspiration"
+    },
+  {
+      "type": "Inspiration",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Colossal",
+      "mainUrl": "http://www.thisiscolossal.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.thisiscolossal.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://facebook.com/thisiscolossal"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/colossal"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        }        
+      ],
+      "keywords": "colossal art design inspiration"
+    },
+  {
+      "type": "Inspiration",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Abduzeedo",
+      "mainUrl": "http://abduzeedo.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://abduzeedo.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/abduzeedos"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/abduzeedo"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "mixed",
+          "name": "Mixed"
+        }        
+      ],
+      "keywords": "abduzeedo art design inspiration"
+    },
+  {
+      "type": "Tutorials",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Sitepoint",
+      "mainUrl": "http://www.sitepoint.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.sitepoint.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/sitepoint"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/sitepointdotcom"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "tutorials",
+          "name": "Tutorials"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        }        
+      ],
+      "keywords": "sitepoint tutorials snippets"
+    },
+
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+        
+      ],
+      "title": "CSSDeck",
+      "mainUrl": "http://cssdeck.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://cssdeck.com/"
+        } 
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        }        
+      ],
+      "keywords": "cssdeck tutorials snippets"
+    },
+  {
+      "type": "Tutorials",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Codyhouse",
+      "mainUrl": "http://codyhouse.co/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://codyhouse.co/"
+        },
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/CodyWebHouse"
+        }, 
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/CodyWebHouse"
+        } ,
+        {
+          "icon": "github",
+          "url": "https://github.com/CodyHouse"
+        }  
+      ],
+      "tags": [
+        {
+          "slug": "tutorials",
+          "name": "Tutorials"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        }        
+      ],
+      "keywords": "codyhouse tutorials snippets"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Codepen",
+      "mainUrl": "http://www.codepen.io/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.codepen.io/"
+        }
+      
+      ],
+      "tags": [
+        {
+          "slug": "tutorials",
+          "name": "tutorials"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "web",
+          "name": "Web"
+        },
+        {
+          "slug": "community",
+          "name": "Community"
+        }
+        
+      ],
+      "keywords": "codepen tutorials design"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Web Creme",
+      "mainUrl": "http://www.webcreme.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.webcreme.com/"
+        } 
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "showcase"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        }
+        
+      ],
+      "keywords": "webcreme showcase design"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Type Wolf",
+      "mainUrl": "http://www.typewolf.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.typewolf.com/"
+        },
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/typewolf"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/typewolfupdates"
+        }   
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "showcase"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "typography",
+          "name": "Typography"
+        }
+        
+      ],
+      "keywords": "typewolf typography showcase design"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Dribbble",
+      "mainUrl": "http://www.dribbble.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.dribbble.com/"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/dribbble"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://facebook.com/dribbble"
+        },
+        {
+          "icon": "instagram",
+          "url": "http://instagram.com/dribbble"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "showcase"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+         {
+          "slug": "community",
+          "name": "Community"
+        }
+        
+      ],
+      "keywords": "dribbble showcase design"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Behance",
+      "mainUrl": "http://www.behance.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.behance.net/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "showcase"
+        },
+        {
+          "slug": "daily",
+          "name": "daily"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "community",
+          "name": "Community"
+        }
+        
+      ],
+      "keywords": "behance showcase design"
+    },
+  {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Six Revisions",
+      "mainUrl": "http://sixrevisions.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://sixrevisions.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        },
+        {
+          "slug": "design",
+          "name": "Design"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        },
+        {
+          "slug": "freebies",
+          "name": "Freebies"
+        }
+      ],
+      "keywords": "six revision tutorials"
+    },
+  {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Web Design Ledger",
+      "mainUrl": "http://webdesignledger.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://webdesignledger.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/pages/Web-Design-Ledger/119775514709373"
+        },
+        {
+          "icon": "twitter",
+          "url": "https://twitter.com/webdesignledger"
+        }
+
+      ],
+      "tags": [
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        },
+        {
+          "slug": "design",
+          "name": "Design"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        },
+        {
+          "slug": "freebies",
+          "name": "Freebies"
+        }
+      ],
+      "keywords": "web design ledger blog"
+    },
+  {
+      "type": "Blog",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "Webdesigner Depot",
+      "mainUrl": "http://www.webdesignerdepot.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.webdesignerdepot.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://www.facebook.com/webdesignerdepot"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/designerdepot"
+        }
+
+      ],
+      "tags": [
+        {
+          "slug": "blogs",
+          "name": "Blogs"
+        },
+        {
+          "slug": "design",
+          "name": "Design"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        },
+        {
+          "slug": "freebies",
+          "name": "Freebies"
+        }
+      ],
+      "keywords": "webdesigner depot blog"
+    },
+  {
+      "type": "Tutorials",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn" 
+        }
+      ],
+      "title": "Nettuts+",
+      "mainUrl": "http://net.tutsplus.com/category/articles/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://net.tutsplus.com/category/articles/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://facebook.com/nettutsplus"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://twitter.com/TutsPlusCode"
+        }
+
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "tutorials",
+          "name": "Tutorials"
+        }
+      ],
+      "keywords": "nettuts news tutorials"
+    },
+    {
+      "type": "Colors",
+      "categories": [
+        {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "resources"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "Adobe Color CC",
+      "mainUrl": "https://color.adobe.com/explore/most-popular/?time=all",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://color.adobe.com/explore/most-popular/?time=all"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "tools",
+          "name": "Tools"
+        },
+        {
+          "slug": "colors-patterns",
+          "name": "Colors/Patterns"
+        }
+
+      ],
+      "keywords": "color pattern"
+    },
+  {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Bestwebsite",
+      "mainUrl": "http://bestwebsite.gallery/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://bestwebsite.gallery/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        }
+      ],
+      "keywords": "showcase design bestwebsite"
+    },
+   {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Designspiration",
+      "mainUrl": "http://designspiration.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://designspiration.net/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        },
+         {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        }
+      ],
+      "keywords": "showcase design"
+    },
+     {
+      "type": "Showcase",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "Hover States",
+      "mainUrl": "http://hoverstat.es/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://hoverstat.es/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "showcase",
+          "name": "Showcase"
+        }
+      ],
+      "keywords": "hover states showcase design"
+    },
+   {
+      "type": "Awards",
+      "categories": [
+        {
+          "slug": "inspiration"
+        }
+      ],
+      "title": "CSS Design Awards",
+      "mainUrl": "http://cssdesignawards.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://cssdesignawards.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "awards",
+          "name": "Awards"
+        }
+      ],
+      "keywords": "awwwards design"
+    },
+  {
+      "type": "Award",
+      "categories": [
+        {
+          "slug": "inspiration"
+        },
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Awwwards",
+      "mainUrl": "http://www.awwwards.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.awwwards.com/"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "awards",
+          "name": "Awards"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }
+      ],
+      "keywords": "awwwards design"
+    },
+    {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "A List Apart",
+      "mainUrl": "http://alistapart.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://alistapart.com/"
+        },
+        {
+          "icon": "facebook",
+          "url": "http://www.facebook.com/alistapart"
+        },
+        {
+          "icon": "twitter",
+          "url": "http://www.twitter.com/alistapart"
+        }
+      ],
+      "tags": [
+        {
+          "slug": "news",
+          "name": "News"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }
+      ],
+      "keywords": "a list apart blog daily"
+    },
+    {
+      "type": "News",
+      "categories": [
+        {
+          "slug": "news-blogs"
         }
       ],
       "title": "Smashing Magazine",
-      "mainUrl": "http://www.google.com",
+      "mainUrl": "http://www.smashingmagazine.com/",
       "otherUrls": [
         {
           "icon": "external-link",
-          "url": "http://www.example.com"
+          "url": "http://www.smashingmagazine.com/"
         },
         {
-          "icon": "github",
-          "url": "http://www.github.com"
+          "icon": "facebook",
+          "url": "http://www.facebook.com/smashmag"
         },
         {
           "icon": "twitter",
-          "url": "http://www.twitter.com"
+          "url": "http://twitter.com/smashingmag"
         }
       ],
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "news",
+          "name": "News"
         },
         {
-          "slug": "html2",
-          "name": "HTML2"
-        },
-        {
-          "slug": "html3",
-          "name": "HTML3"
+          "slug": "daily",
+          "name": "Daily"
         }
       ],
-      "keywords": "smashing magazine blog"
+      "keywords": "smashing magazine blog daily"
     },
     {
-      "type": "article",
+      "type": "News",
       "categories": [
         {
-          "slug": "category-2"
+          "slug": "news-blogs"
         }
       ],
-      "title": "Sample article",
-      "mainUrl": "http://www.google.com",
+      "title": "A List Apart",
+      "mainUrl": "http://alistapart.com/",
       "otherUrls": [
         {
           "icon": "external-link",
-          "url": "http://www.example.com"
+          "url": "http://alistapart.com/"
         },
         {
-          "icon": "github",
-          "url": "http://www.github.com"
+          "icon": "facebook",
+          "url": "http://www.facebook.com/alistapart"
         },
         {
           "icon": "twitter",
-          "url": "http://www.twitter.com"
+          "url": "http://www.twitter.com/alistapart"
         }
       ],
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "news",
+          "name": "News"
         },
         {
-          "slug": "html2",
-          "name": "HTML2"
-        },
-        {
-          "slug": "html3",
-          "name": "HTML3"
+          "slug": "daily",
+          "name": "Daily"
         }
       ],
-      "keywords": "sraka kupa ciota brama"
+      "keywords": "a list apart blog daily"
     },
     {
-      "type": "article",
+      "type": "Blog",
       "categories": [
         {
-          "slug": "category-2"
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn"
         }
       ],
-      "title": "Sample article",
-      "mainUrl": "http://www.google.com",
+      "title": "Codrops",
+      "mainUrl": "http://tympanus.net/codrops/",
       "otherUrls": [
         {
           "icon": "external-link",
-          "url": "http://www.example.com"
+          "url": "http://tympanus.net/codrops/"
         },
         {
-          "icon": "github",
-          "url": "http://www.github.com"
+          "icon": "facebook",
+          "url": "http://www.facebook.com/pages/Codrops/159107397912"
         },
         {
           "icon": "twitter",
-          "url": "http://www.twitter.com"
+          "url": "http://www.twitter.com/codrops"
+        },
+        {
+          "icon":"github",
+          "url":"https://github.com/codrops"
         }
       ],
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "blogs",
+          "name": "Blogs"
         },
         {
-          "slug": "html2",
-          "name": "HTML2"
+          "slug": "daily",
+          "name": "Daily"
         },
         {
-          "slug": "html3",
-          "name": "HTML3"
+          "slug": "tutorials",
+          "name": "Tutorials"
+        },
+        {
+          "slug": "inspiration",
+          "name": "Inspiration"
         }
       ],
-      "keywords": "animation" 
+      "keywords": "codrops blog daily"
     },
     {
-      "type": "article",
+      "type": "Blog",
       "categories": [
         {
-          "slug": "category-2"
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn"
         }
       ],
-      "title": "Sample article",
-      "mainUrl": "http://www.google.com",
+      "title": "CSS Tricks",
+      "mainUrl": "https://css-tricks.com/",
       "otherUrls": [
         {
           "icon": "external-link",
-          "url": "http://www.example.com"
-        },
-        {
-          "icon": "github",
-          "url": "http://www.github.com"
-        },
-        {
-          "icon": "twitter",
-          "url": "http://www.twitter.com"
+          "url": "https://css-tricks.com/"
         }
+        
       ],
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "blogs",
+          "name": "Blogs"
         },
         {
-          "slug": "html2",
-          "name": "HTML2"
+          "slug": "daily",
+          "name": "Daily"
         },
         {
-          "slug": "html3",
-          "name": "HTML3"
+          "slug": "tutorials",
+          "name": "Tutorials"
         }
       ],
-      "keywords": "ruby php"
+      "keywords": "css-tricks css tricks"
     },
     {
-      "type": "article",
+      "type": "Blog",
       "categories": [
         {
-          "slug": "category-2"
+          "slug": "news-blogs"
+        },
+        {
+          "slug": "learn"
         }
       ],
-      "title": "Sample article",
-      "mainUrl": "http://www.google.com",
+      "title": "Scotch.io",
+      "mainUrl": "https://scotch.io",
       "otherUrls": [
         {
           "icon": "external-link",
-          "url": "http://www.example.com"
-        },
-        {
-          "icon": "github",
-          "url": "http://www.github.com"
-        },
-        {
-          "icon": "twitter",
-          "url": "http://www.twitter.com"
+          "url": "https://scotch.io"
         }
+        
       ],
       "tags": [
         {
-          "slug": "html",
-          "name": "HTML"
+          "slug": "blogs",
+          "name": "Blogs"
         },
         {
-          "slug": "html2",
-          "name": "HTML2"
+          "slug": "daily",
+          "name": "Daily"
         },
         {
-          "slug": "html3",
-          "name": "HTML3"
+          "slug": "tutorials",
+          "name": "Tutorials"
         }
       ],
-      "keywords": "html javascript"
+      "keywords": "scotch tutorials"
+    },
+     {
+      "type": "Community",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Hacker News",
+      "mainUrl": "https://news.ycombinator.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://news.ycombinator.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }
+      ],
+      "keywords": "hacker news community"
+    },
+    {
+      "type": "Community",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "Designer News",
+      "mainUrl": "https://news.layervault.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://news.layervault.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }
+      ],
+      "keywords": "designer news community"
+    },
+    {
+      "type": "Community",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "r/webdev",
+      "mainUrl": "http://www.reddit.com/r/webdev",
+      "otherUrls": [
+        {
+          "icon": "reddit",
+          "url": "http://www.reddit.com/r/webdev"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }
+      ],
+      "keywords": "reddit news community"
+    },
+    {
+      "type": "Community",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "r/web_design",
+      "mainUrl": "http://www.reddit.com/r/web_design",
+      "otherUrls": [
+        {
+          "icon": "reddit",
+          "url": "http://www.reddit.com/r/web_design"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "daily",
+          "name": "Daily"
+        }
+      ],
+      "keywords": "reddit news community web design"
+    },
+    {
+      "type": "Community",
+      "categories": [
+        {
+          "slug": "news-blogs"
+        }
+      ],
+      "title": "r/design",
+      "mainUrl": "http://www.reddit.com/r/design",
+      "otherUrls": [
+        {
+          "icon": "reddit",
+          "url": "http://www.reddit.com/r/design"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "design",
+          "name": "Design"
+        }
+        
+      ],
+      "keywords": "reddit design community"
+    },
+    {
+      "type": "Community",
+      "categories": [
+        {
+          "slug": "resources"
+        }
+      ],
+      "title": "r/crappydesign",
+      "mainUrl": "http://www.reddit.com/r/crappydesign",
+      "otherUrls": [
+        {
+          "icon": "reddit",
+          "url": "http://www.reddit.com/r/crappydesign"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "community",
+          "name": "Community"
+        },
+        {
+          "slug": "design",
+          "name": "Design"
+        },
+        {
+          "slug": "lolz",
+          "name": "Lolz"
+        }
+        
+      ],
+      "keywords": "reddit design lolz community"
     }
+    
     
     
   ]

@@ -21,7 +21,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 'resize
       templateUrl: 'views/grid.html',
       controller : 'NavCtrl'
     })
-    $locationProvider.html5Mode(false);
+    $locationProvider.html5Mode(true);
     resizeProvider.throttle = 500;
     resizeProvider.initBind = true;
   }]); 
@@ -33,7 +33,7 @@ app.controller('MainCtrl', [ '$rootScope', '$scope', '$state', '$filter', 'colle
       $rootScope.collection = collectionData;
       $rootScope.categories = $filter('orderBy')($rootScope.collection.categories, '+order');
       $rootScope.current = $state.params.slug;
-      $rootScope.limitAll = 5;
+      $rootScope.limitAll = 20;
       var check = $filter('filter')($rootScope.collection.categories, { 'slug': $rootScope.current},true);
       if(check.length > 0) {
         $rootScope.currentTag = 'all';
