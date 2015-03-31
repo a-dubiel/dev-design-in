@@ -37,6 +37,10 @@
           "name": "Javascript"
         },
         {
+          "slug": "preprocessors",
+          "name": "Preprocessors"
+        },
+        {
           "slug": "database",
           "name": "Databases"
         },
@@ -94,6 +98,10 @@
         {
           "slug": "inspiration",
           "name": "Inspiration"
+        },
+        {
+          "slug": "events",
+          "name": "Events"
         }
       ]
     },
@@ -252,36 +260,1457 @@
           "name": "Misc"
         }
       ]
-    },
-    { 
-      "slug": "events",
-      "name": "Events",
-      "order":9,
-      "tags": [
-        {
-          "slug": "usa",
-          "name": "USA"
-        },
-        {
-          "slug": "europe",
-          "name": "Europe"
-        },
-        {
-          "slug": "south-america",
-          "name": "South America"
-        },
-        {
-          "slug": "asia",
-          "name": "Asia"
-        },
-        {
-          "slug": "other",
-          "name": "Other"
-        }
-      ]
     }
   ],
   "items": [
+  {
+    "type": "Misc",
+    "categories": [
+      {
+        "slug": "learn"
+      }
+    ],
+    "title": "How Browsers Work?", 
+    "mainUrl": "http://taligarsiel.com/Projects/howbrowserswork1.htm",
+    "otherUrls": [
+      {
+        "icon": "external-link",
+        "url": "http://taligarsiel.com/Projects/howbrowserswork1.htm"
+      }
+      
+    ],
+    "tags": [
+      {
+        "slug": "misc",
+        "name": "Misc"
+      }          
+    ],
+    "keywords": "browser"
+  },
+  {
+    "type": "Misc",
+    "categories": [
+      {
+        "slug": "learn"
+      }
+    ],
+    "title": "Brad Frost - Responsive Resources", 
+    "mainUrl": "http://bradfrost.github.io/this-is-responsive/resources.html",
+    "otherUrls": [
+      {
+        "icon": "external-link",
+        "url": "http://bradfrost.github.io/this-is-responsive/resources.html"
+      }
+      
+    ],
+    "tags": [
+      {
+        "slug": "misc",
+        "name": "Misc"
+      }          
+    ],
+    "keywords": "resources"
+  },
+  {
+    "type": "Robots.txt",
+    "categories": [
+      {
+        "slug": "learn"
+      }
+    ],
+    "title": "Robots.txt", 
+    "mainUrl": "http://www.robotstxt.org/robotstxt.html",
+    "otherUrls": [
+      {
+        "icon": "external-link",
+        "url": "http://www.robotstxt.org/robotstxt.html"
+      }
+      
+    ],
+    "tags": [ 
+      {
+        "slug": "misc",
+        "name": "Misc"
+      }          
+    ],
+    "keywords": "robots"
+  },
+  {
+    "type": "Git",
+    "categories": [
+      {
+        "slug": "learn"
+      }
+    ],
+    "title": "Git Tower", 
+    "mainUrl": "http://www.git-tower.com/learn/",
+    "otherUrls": [
+      {
+        "icon": "external-link",
+        "url": "http://www.git-tower.com/learn/"
+      }
+      
+    ],
+    "tags": [
+      {
+        "slug": "misc",
+        "name": "Misc"
+      }          
+    ],
+    "keywords": "git"
+  },
+  {
+    "type": "Javascript",
+    "categories": [
+      {
+        "slug": "learn"
+      }
+    ],
+    "title": "Superhero.js", 
+    "mainUrl": "http://superherojs.com/",
+    "otherUrls": [
+      {
+        "icon": "external-link",
+        "url": "http://superherojs.com/"
+      }
+      
+    ],
+    "tags": [
+      {
+        "slug": "javascript",
+        "name": "Javascript"
+      }          
+    ],
+    "keywords": "javascript"
+  },
+  {
+    "type": "Javascript",
+    "categories": [
+      {
+        "slug": "learn"
+      }
+    ],
+    "title": "Thoughtbot - Javascript", 
+    "mainUrl": "https://learn.thoughtbot.com/javascript",
+    "otherUrls": [
+      {
+        "icon": "external-link",
+        "url": "https://learn.thoughtbot.com/javascript"
+      }
+      
+    ],
+    "tags": [
+      {
+        "slug": "javascript",
+        "name": "Javascript"
+      }          
+    ],
+    "keywords": "javascript"
+  },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Thoughtbot - Javascript", 
+      "mainUrl": "https://learn.thoughtbot.com/javascript",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://learn.thoughtbot.com/javascript"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript"
+    },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Team Treehouse - jQuery", 
+      "mainUrl": "http://teamtreehouse.com/library/websites/build-an-interactive-website",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript jquery"
+    },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Team Treehouse - Javascript", 
+      "mainUrl": "http://teamtreehouse.com/library/websites/javascript-foundations",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript"
+    },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Eloquent Javascript", 
+      "mainUrl": "http://eloquentjavascript.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://eloquentjavascript.net/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript eloquent"
+    },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Codeacademy - jQuery", 
+      "mainUrl": "http://www.codecademy.com/tracks/jquery",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.codecademy.com/tracks/jquery"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript jquery"
+    },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Codeacademy - Javascript", 
+      "mainUrl": "http://www.codecademy.com/tracks/javascript",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.codecademy.com/tracks/javascript"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript"
+    },
+  {
+      "type": "Javascript",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "appendTo", 
+      "mainUrl": "http://learn.appendto.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://learn.appendto.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }          
+      ],
+      "keywords": "javascript"
+    },
+  {
+      "type": "LESS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+        
+      ],
+      "title": "A comprehensive guide to LESS", 
+      "mainUrl": "http://www.cssauthor.com/less-tutorials/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.cssauthor.com/less-tutorials/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "preprocessors",
+          "name": "Preprocessors"
+        }
+        
+                   
+      ],
+      "keywords": "less preprocessors"
+    },
+  {
+      "type": "LESS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+        
+      ],
+      "title": "Getting Started With LESS", 
+      "mainUrl": "https://scotch.io/tutorials/getting-started-with-less",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://scotch.io/tutorials/getting-started-with-less"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "preprocessors",
+          "name": "Preprocessors"
+        }
+        
+                   
+      ],
+      "keywords": "less preprocessors"
+    },
+  {
+      "type": "SASS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+        
+      ],
+      "title": "Thoughtbot SASS", 
+      "mainUrl": "https://learn.thoughtbot.com/sass",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://learn.thoughtbot.com/sass"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "preprocessors",
+          "name": "Preprocessors"
+        }
+        
+                   
+      ],
+      "keywords": "sass preprocessors"
+    },
+  {
+      "type": "SASS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+        
+      ],
+      "title": "Master SASS", 
+      "mainUrl": "https://www.drawar.com/web/course/sass",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://www.drawar.com/web/course/sass"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "preprocessors",
+          "name": "Preprocessors"
+        }
+        
+                   
+      ],
+      "keywords": "sass preprocessors"
+    },
+  {
+      "type": "SASS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+        
+      ],
+      "title": "Introduction to SASS", 
+      "mainUrl": "http://css-diary.com/introduction-to-sass/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://css-diary.com/introduction-to-sass/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "preprocessors",
+          "name": "Preprocessors"
+        }
+        
+                   
+      ],
+      "keywords": "sass preprocessors"
+    },
+  {
+      "type": "Node.js",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "Node.js - Absolute Beginners Guide", 
+      "mainUrl": "http://blog.modulus.io/absolute-beginners-guide-to-nodejs",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://blog.modulus.io/absolute-beginners-guide-to-nodejs"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "node mongo express javascript framework rest api"
+    },
+  {
+      "type": "Node.js",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "Restful Web App with Node.js, MongoDB and Express", 
+      "mainUrl": "http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "node mongo express javascript framework rest api"
+    },
+  {
+      "type": "Git",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+        
+      ],
+      "title": "Git Training and Tutorials", 
+      "mainUrl": "https://www.atlassian.com/git/tutorials/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://www.atlassian.com/git/tutorials/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "misc",
+          "name": "Misc"
+        }
+       
+                   
+      ],
+      "keywords": "git"
+    },
+  {
+      "type": "AngularJS",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "AngularJS Tutorial - A Comprehensive 10,000 Word Guide", 
+      "mainUrl": "https://www.airpair.com/angularjs/posts/angularjs-tutorial",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://www.airpair.com/angularjs/posts/angularjs-tutorial"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "angular javascript framework"
+    },
+
+  {
+      "type": "AngularJS",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "AngularJS - Styleguide by Todd Motto", 
+      "mainUrl": "https://github.com/toddmotto/angularjs-styleguide",
+      "otherUrls": [
+        {
+          "icon": "github",
+          "url": "https://github.com/toddmotto/angularjs-styleguide"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "angular javascript framework"
+    },
+  {
+      "type": "AngularJS",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "AngularJS - Ultimate Guide by Todd Motto", 
+      "mainUrl": "http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "angular javascript framework"
+    },
+  {
+      "type": "AngularJS",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "AngularJS - Comprehensive Beginner Guide", 
+      "mainUrl": "http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "angular javascript framework"
+    },
+  {
+      "type": "AngularJS",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "AngularJS Tutorial - Learn to Build Web Apps", 
+      "mainUrl": "http://www.thinkster.io/pick/GUIDJbpIie/angularjs-tutorial-learn-to-build-modern-web-apps",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.thinkster.io/pick/GUIDJbpIie/angularjs-tutorial-learn-to-build-modern-web-apps"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "angular javascript framework"
+    },
+  {
+      "type": "AngularJS",
+      "categories": [
+        {
+          "slug": "learn"
+        },
+        {
+          "slug": "development"
+        }
+      ],
+      "title": "AngularJS Learning", 
+      "mainUrl": "https://github.com/jmcunningham/AngularJS-Learning",
+      "otherUrls": [
+        {
+          "icon": "github",
+          "url": "https://github.com/jmcunningham/AngularJS-Learning"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        },
+        {
+          "slug": "frameworks",
+          "name": "Frameworks"
+        }
+                   
+      ],
+      "keywords": "angular javascript framework"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Webplatform - CSS Guide", 
+      "mainUrl": "https://docs.webplatform.org/wiki/css",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://docs.webplatform.org/wiki/css"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Webplatform - HTML Guide", 
+      "mainUrl": "https://docs.webplatform.org/wiki/html",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://docs.webplatform.org/wiki/html"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Mozilla - CSS3 Guide", 
+      "mainUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Mozilla - CSS3 Guide", 
+      "mainUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Mozilla - CSS3 Guide", 
+      "mainUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Mozilla - HTML Guide", 
+      "mainUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Mozilla - Flexible boxes", 
+      "mainUrl": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html flexible boxes"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Thoughtbot - HTML/CSS", 
+      "mainUrl": "https://learn.thoughtbot.com/html-css",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://learn.thoughtbot.com/html-css"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html thoughtbot"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Team Treehouse - Learn HTML/CSS", 
+      "mainUrl": "http://teamtreehouse.com/learning-adventures/learn-html-and-css",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://teamtreehouse.com/learning-adventures/learn-html-and-css"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html treehouse"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Teaching Materials - HTML & CSS", 
+      "mainUrl": "http://www.teaching-materials.org/htmlcss-1day/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.teaching-materials.org/htmlcss-1day/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html teaching"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Thoughtbot - Grids", 
+      "mainUrl": "https://learn.thoughtbot.com/grids",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://learn.thoughtbot.com/grids"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html grids"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "SMACSS - A flexible guide to developing sites small and large", 
+      "mainUrl": "https://smacss.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://smacss.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html smacss layout"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Learn CSS layout", 
+      "mainUrl": "http://learnlayout.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://learnlayout.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html layout"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Grid - A simple guide to responsive design", 
+      "mainUrl": "http://adamkaplan.me/grid/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.dontfeartheinternet.com/the-basics/not-tubes"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html grid"
+    },
+  {
+     "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Don't Fear The Internet", 
+      "mainUrl": "http://www.dontfeartheinternet.com/the-basics/not-tubes",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.dontfeartheinternet.com/the-basics/not-tubes"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html dont fear"
+    },
+
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Dive Into HTML5", 
+      "mainUrl": "http://diveintohtml5.info",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://diveintohtml5.info"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }
+                   
+      ],
+      "keywords": "css html diveinto"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "The ulitmate guide to flexbox", 
+      "mainUrl": "http://www.sketchingwithcss.com/samplechapter/cheatsheet.html",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.sketchingwithcss.com/samplechapter/cheatsheet.html"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css flexbox html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Dash - Learn to make websites", 
+      "mainUrl": "https://dash.generalassemb.ly/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://dash.generalassemb.ly/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        },
+        {
+          "slug": "javascript",
+          "name": "Javascript"
+        }                
+      ],
+      "keywords": "css javascript dash html"
+    },
+  {
+      "type": "Tutorials",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "CSS Wizardry - CSS Guidliness", 
+      "mainUrl": "https://github.com/csswizardry/CSS-Guidelines",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://github.com/csswizardry/CSS-Guidelines"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css wizardry html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Code School", 
+      "mainUrl": "https://www.codeschool.com/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "https://www.codeschool.com/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css codeschool html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Building Your First Web Page", 
+      "mainUrl": "http://learn.shayhowe.com/html-css/building-your-first-web-page/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://learn.shayhowe.com/html-css/building-your-first-web-page/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css first webpage html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "A Desginers Guide To Flexbox", 
+      "mainUrl": "http://demosthenes.info/blog/780/A-Designers-Guide-To-Flexbox",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://demosthenes.info/blog/780/A-Designers-Guide-To-Flexbox"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css flexbox html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "A Desginers Guide To Flexbox", 
+      "mainUrl": "http://demosthenes.info/blog/780/A-Designers-Guide-To-Flexbox",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://demosthenes.info/blog/780/A-Designers-Guide-To-Flexbox"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css flexbox html"
+    },
+  {
+     "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "CSS Tutorial", 
+      "mainUrl": "http://www.csstutorial.net/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.csstutorial.net/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "W3 Schools - CSS", 
+      "mainUrl": "http://www.w3schools.com/css/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.w3schools.com/css/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "css html"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "HTML.net - Tutorial", 
+      "mainUrl": "http://html.net/tutorials/html/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://html.net/tutorials/html/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "html"
+    },
+  {
+     "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "Codeacademy - HTML & CSS", 
+      "mainUrl": "http://www.codecademy.com/en/tracks/web",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.codecademy.com/en/tracks/web"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "html codecademy"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "HTML Dog - HTML Beginner", 
+      "mainUrl": "http://htmldog.com/guides/html/beginner/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://htmldog.com/guides/html/beginner/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "html htmldog"
+    },
+  {
+      "type": "HTML/CSS",
+      "categories": [
+        {
+          "slug": "learn"
+        }
+      ],
+      "title": "W3 Schools - HTML", 
+      "mainUrl": "http://www.w3schools.com/html/",
+      "otherUrls": [
+        {
+          "icon": "external-link",
+          "url": "http://www.w3schools.com/html/"
+        }
+        
+      ],
+      "tags": [
+        {
+          "slug": "html-css",
+          "name": "HTML/CSS"
+        }               
+      ],
+      "keywords": "html w3schools"
+    },
   {
       "type": "Typography",
       "categories": [
